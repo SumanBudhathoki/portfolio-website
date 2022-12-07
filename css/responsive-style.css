@@ -77,10 +77,23 @@ h3{
 }
 
 .header_wrapper .navbar-brand img{ 
-    max-width: 5rem;
+    max-width: 3.5rem;
     height:auto;
 
 }
+
+.header-scrolled {
+    height: 11%;
+}
+.header_wrapper .navbar{
+    padding: 0.2rem 0;
+}
+
+.banner_wrapper .banner-content h2::after{
+    width: 50%;
+    height: 0.125rem;
+}
+
 .about_wrapper img{
     max-width: 100%;
     height: auto;
