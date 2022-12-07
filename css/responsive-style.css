@@ -54,23 +54,37 @@ h3{
 }
 @media (max-width : 575.5px){
 /* Custom */
-/* .banner_wrapper .banner-content h2::after{
-    left:40%;
-} */
+.banner_wrapper .banner-content h2::after{
+    width: 50%;
+    left: 30%;
+}
+.header_wrapper .navbar{
+    padding: 0rem 0;
+}
 
 .footer_wrapper form{
     display: block;
     width:100%;
     margin: 0 auto;
 }
+
 .about_wrapper img{
     max-width: 100%;
     height: auto;
 }
+
 .header_wrapper .navbar-brand img{ 
-    max-width: 2.5rem;
+    max-width: 2.8rem;
     height:auto;
 
+}
+.gotopbtn{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    right: 20px;
+    bottom: 20px;
 }
 
 
@@ -78,7 +92,8 @@ h3{
 @media (max-width : 390px){
 /* Banner */
 .banner_wrapper .banner-content h2::after{
-    left:34%;
+    width: 45%;
+    left: 35%;
 }
 .footer_wrapper form{
     display: block;
@@ -92,16 +107,13 @@ h3{
 
 }
 
-.header-scrolled {
-    height: 10%;
-}
-.header_wrapper .navbar{
-    padding: 0.2rem 0;
+.header_wrapper .navbar-toggler i{ 
+    font-size: 1rem;
+
 }
 
-.banner_wrapper .banner-content h2::after{
-    width: 50%;
-    height: 0.125rem;
+.header_wrapper .navbar{
+    padding: 0rem 0;
 }
 
 .about_wrapper img{
@@ -109,7 +121,7 @@ h3{
     height: auto;
 }
 .main-btn{
-    padding: 0 2.15rem ;
+    padding: 0 1.8rem ;
 }
 .gotopbtn{
     width: 30px;
